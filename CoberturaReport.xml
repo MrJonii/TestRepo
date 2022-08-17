@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.5" branch-rate="0" complexity="0" branches-covered="0" branches-valid="0" timestamp="1660748183" lines-covered="3" lines-valid="6" version="0">
+  <sources>
+    <source>D:</source>
+  </sources>
+  <packages>
+    <package name="D:\Code\Sandbox\GoogleTest\x64\Debug\GoogleTest.exe" line-rate="0.5" branch-rate="0" complexity="0">
+      <classes>
+        <class name="Test.cpp" filename="Code\Sandbox\GoogleTest\TestLib\Test.cpp" line-rate="0.5" branch-rate="0" complexity="0">
+          <methods/>
+          <lines>
+            <line number="5" hits="1"/>
+            <line number="6" hits="1"/>
+            <line number="7" hits="1"/>
+            <line number="10" hits="0"/>
+            <line number="11" hits="0"/>
+            <line number="12" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
