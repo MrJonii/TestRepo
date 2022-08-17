@@ -24,3 +24,8 @@ steps:
     PathtoPublish: '$(System.DefaultWorkingDirectory)/TestApp/x64/Debug'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: 'Cobertura'
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/Cobertura.xml'
